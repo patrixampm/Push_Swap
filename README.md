@@ -19,14 +19,23 @@ With this cost calculation, I managed to sort any 500 random integers in under 5
 
 ## Clone the repo...
 or download the files. You will need make on your PC. Once you have the repo locally, open a terminal in that same directory and type the command:
-`make`
+```
+make
+```
 This will compile the full project, including my personal C library: libft, which contains a large range of C functions that can help with this project or any other.
-Once you have compiled push_swap you can create and ARG with a set of integers of your own choice. In the same directory type the command:
-`ARG="50, -60, 1, 2, 4, 78, -1, 0, 4.890.212, (add ints till your dizzy)"`
+Once you have compiled push_swap you can create an ARG with a set of integers of your own choice. In the same directory type the command:
+```
+ARG="50, -60, 1, 2, 4, 78, -1, 0, 4.890.212, (add ints till your dizzy)"
+```
 To execute push_swap with this set of integers, type the command:
-`./push_swap $ARG`
-o
-`./push_swap $ARG | wc -l` if you only want to see how many moves it took to sort this set.
+```
+./push_swap $ARG
+```
+or
+```
+./push_swap $ARG | wc -l
+```
+if you only want to see how many moves it took to sort this set.
 
 There are fantastic online resources available to play a push_swap game that will help you visualize the process:
 [Link](https://vscza.itch.io/push-swap)
