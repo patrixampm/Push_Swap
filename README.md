@@ -18,7 +18,7 @@ I have created three algorithms, the first two are very simple: one algorithm fo
 With this cost calculation, I managed to sort any 500 random integers in under 5.000 moves. Do you want to try and improve this mark?
 
 ## Clone the repo...
-or download the files. You will need make on your PC. Once you have the repo locally, open a terminal in that same directpry and type the command:
+or download the files. You will need make on your PC. Once you have the repo locally, open a terminal in that same directory and type the command:
 `make`
 This will compile the full project, including my personal C library: libft, which contains a large range of C functions that can help with this project or any other.
 Once you have compiled push_swap you can create and ARG with a set of integers of your own choice. In the same directory type the command:
