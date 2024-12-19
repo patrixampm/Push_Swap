@@ -14,7 +14,7 @@ You have a set of moves you can apply to any of the stacks:
 The objective is to create an algorithm that can sort 500 random integers between -2.147.483.648 and 2.147.483.647 in less than 5.500 moves.
 
 ## My choice
-I have created three algorithms, the first two are very simple: one algorithm for a set of two integers, and another for a set of three algorithms. The third algorithm (donde está la chicha) is a __costs sorting algorithm__. It asigns a cost to each of the integers depending on it's distance from it's ideal position.
+I have created three algorithms, the first two are very simple: one algorithm for a set of two integers, and another for a set of three integers. The third algorithm (donde está la chicha) is a __costs sorting algorithm__. It asigns a cost to each of the integers depending on it's distance from it's ideal position.
 With this cost calculation, I managed to sort any 500 random integers in under 5.000 moves. Do you want to try and improve this mark?
 
 ## Clone the repo...
